@@ -176,6 +176,10 @@ To install pyspark for local testing, if you don't have it already, please follo
    sudo apt update
    sudo apt install default-jdk
    ```
+   or
+   ```bash
+   brew install default-jdk
+   ```
 
    Check if Java is installed:
 
