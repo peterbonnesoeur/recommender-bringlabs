@@ -1,0 +1,22 @@
+# local package
+-e .
+
+# external requirements         # License
+flake8 >= 3.7.9                 # MIT
+python-dotenv>=0.5.1            # MIT
+black[jupyter]                  # MIT
+
+# recipe crawler                # License
+beautifulsoup4>=4.12.3,<5.0     # MIT
+openai>=1.51.0,<2.0             # MIT
+boto3>=1.18.9,<2.0              # Apache-2.0
+moto>=5.0.0,<6.0                # Apache-2.0
+
+
+# recommandation system          # License
+nltk>=3.9,<4.0                   # Apache-2.0
+pyarrow                         # Apache-2.0
+pyspark                         # Apache-2.0
+sparknlp                        # Apache-2.0
+tqdm                            # MIT
+# rank-bm25>=0.2.1,<1.0            # MIT
