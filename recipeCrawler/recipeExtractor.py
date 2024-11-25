@@ -58,7 +58,8 @@ class RecipeExtractor:
             title = title_chat
 
         # Extract the list of ingredients
-        ingredients_prompt = f"Here is some text from a recipe webpage: \n\n{raw_text}\n\nPlease provide only the names of the ingredients used in this recipe separated by commas."
+        ingredients_prompt = f"Here is some text from a recipe webpage: \n\n{raw_text}\n\nPlease provide\
+            only the names of the ingredients used in this recipe separated by commas."
         ingredients_response = openai.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[

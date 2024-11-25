@@ -2,7 +2,7 @@
 flake8 >= 3.7.9                 # MIT
 python-dotenv>=0.5.1            # MIT
 black[jupyter]                  # MIT
-
+nbdev                           # MIT
 
 # recipe crawler                # License
 beautifulsoup4>=4.12.3,<5.0     # MIT
