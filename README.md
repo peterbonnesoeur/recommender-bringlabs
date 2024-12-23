@@ -1,7 +1,7 @@
 # Bring Labs recommender
 ==============================
 
-A work performed for BringLabs for an interview with them
+A work performed for BringLabs
 
 - [Bring Labs recommender](#bring-labs-recommender)
   - [Task description](#task-description)
